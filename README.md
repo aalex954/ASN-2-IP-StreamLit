@@ -6,6 +6,22 @@ Retrieves all the Autonomous System (AS) Numbers associated with an organization
 ## Setup
 
 ```bash
+git clone https://github.com/aalex954/ASN-2-IP-StreamLit
+```
+
+```bash
+cd ASN-2-IP-StreamLit
+```
+
+```bash
+python -m venv env
+```
+
+```bash
+env\Scripts\activate
+```
+
+```bash
 pip install streamlit requests pandas
 ```
 ```bash
